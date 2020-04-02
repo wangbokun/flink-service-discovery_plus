@@ -3,6 +3,10 @@
 
 # 1 修改配置文件
 
+- 脚本会自动扫描所有Job type = "Apache Flink" 的所有job，
+- 检测job是否开启metirc配置，如果没有开启跳过不采集，
+- 新增的Job会自动加到被采集的队列中
+
 ```
   # 1. 修改flink配置
   flink-conf.yaml
@@ -44,6 +48,12 @@
 
 # 2 
   ## 2.1 Prometheus config
-  
-  <img src=https://github.com/wangbokun/flink-service-discovery_plus/blob/master/img/prometheus-config.jpg" width="50%">
+  ![](https://github.com/wangbokun/flink-service-discovery_plus/blob/master/img/prometheus-config.jpg)
 
+  ## 2.2  targets sd
+  
+   ![](https://github.com/wangbokun/flink-service-discovery_plus/blob/master/img/target.jpg)
+   
+   ## 2.3 metric select
+   ![](https://github.com/wangbokun/flink-service-discovery_plus/blob/master/img/select.jpg)
+   
