@@ -42,4 +42,8 @@
 
 ```
 
+# 2 
+  ## 2.1 Prometheus config
+  
+  <img src=https://github.com/wangbokun/flink-service-discovery_plus/blob/master/img/prometheus-config.jpg" width="50%">
 
